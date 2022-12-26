@@ -1,4 +1,4 @@
-This project is used for download all videos of a douyin channel. Using selenium and chrome webdriver.\
+This project is used for download all videos of a douyin channel. Using selenium and chrome webdriver.
 - First you need to download Chrome Webdriver( choose your version that compatible with your browser).\
 [Download chrome webdriver here.](https://chromedriver.chromium.org/downloads)
 
