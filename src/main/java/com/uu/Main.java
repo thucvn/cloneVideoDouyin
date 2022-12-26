@@ -13,7 +13,8 @@ import java.time.Duration;
 public class Main {
     static String CHANNEL_URL = "https://www.douyin.com/user/MS4wLjABAAAAaVEJo-_5RLwf-fYKSzYqe92-ENakXTdJiUq_COK0oE0";
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "F:/aa/chromedriver_win32/chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "F:/aa/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
         DownloadVideo downloadVideo = new DownloadVideo("https://www.douyin.com/video/7179579691047587105");
         downloadVideo.run();
 //        ChromeDriver driver = null;
